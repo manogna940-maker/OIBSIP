@@ -1,1 +1,29 @@
+:root{
+  --bg: #191521;
+  --panel: #221c2e;
+  --screen: #14101c;
+  --key: #2c2438;
+  --key-hover: #382d49;
+  --op: #ff8a3d;
+  --op-hover: #ff9c5c;
+  --fn: #7a71a3;
+  --text: #f4f1fb;
+  --text-dim: #8b83ad;
+  --accent-glow: rgba(255, 138, 61, 0.35);
+}
 
+*{ box-sizing: border-box; margin: 0; padding: 0; }
+
+body{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(circle at 30% 20%, #241d33, var(--bg) 60%);
+  font-family: 'Segoe UI', Roboto, -apple-system, sans-serif;
+  padding: 24px;
+}
+
+.calc-wrap{
+  display: flex;
+  flex-direction:
