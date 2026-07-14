@@ -1,1 +1,3 @@
-# OIBSIP
+# StopwatchApp
+
+Skeleton Android project.
